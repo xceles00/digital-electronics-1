@@ -1,6 +1,6 @@
-# Lab 5: YOUR_FIRSTNAME LASTNAME
+# Lab 5: Peter Čeleš 
 
-### Flip-flops
+Flip-flops
 
 1. Listing of VHDL architecture for T-type flip-flop. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
@@ -21,10 +21,16 @@ begin
     p_t_ff_rst : process(clk)
     begin
         if rising_edge(clk) then
-
-        -- WRITE YOUR CODE HERE
-
-        end if;
+ 	    if (rst = '1')then
+                s_q <= '0';
+            else
+                if (t = '0')then
+                    s_q <= s_q;
+                else
+                    s_q <= not t;        
+                end if;               
+            end if;
+       end if;
     end process p_t_ff_rst;
 
     -- Output ports are permanently connected to local signal
