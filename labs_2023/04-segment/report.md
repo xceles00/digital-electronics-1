@@ -37,7 +37,7 @@
 
  --Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
  LED(7) <= '1' when (SW(0) = '1' or SW(1) = '1' or SW(2) = '1' or SW(3) = '1') else '0';
-   
+    ```
 
 
 
