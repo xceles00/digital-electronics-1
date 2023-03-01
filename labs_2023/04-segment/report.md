@@ -27,6 +27,8 @@
 
    ```vhdl
    --------------------------------------------------------------------
+   -- Experiments on your own: LED(7:4) indicators
+
  --Turn LED(4) on if input value is equal to 0, ie "0000"
  LED(4) <= '1' when (SW = "0000") else '0'; 
 
@@ -38,7 +40,6 @@
 
  --Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
  LED(7) <= '1' when (SW(0) = '1' or SW(1) = '1' or SW(2) = '1' or SW(3) = '1') else '0';
-
    ```
 
 3. Screenshot with simulated time waveforms for LED(7:4). Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
