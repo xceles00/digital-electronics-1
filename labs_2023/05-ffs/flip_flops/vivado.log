@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 16 11:09:12 2023
+# Process ID: 2996
+# Current directory: C:/Users/xceles00/Documents/digital-electronics-1/labs_2023/05-ffs/flip_flops
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4428 C:\Users\xceles00\Documents\digital-electronics-1\labs_2023\05-ffs\flip_flops\flip_flops.xpr
+# Log file: C:/Users/xceles00/Documents/digital-electronics-1/labs_2023/05-ffs/flip_flops/vivado.log
+# Journal file: C:/Users/xceles00/Documents/digital-electronics-1/labs_2023/05-ffs/flip_flops\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/xceles00/Documents/digital-electronics-1/labs_2023/05-ffs/flip_flops/flip_flops.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/xceles00/Documents/digital-electronics-1/labs_2023/05-ffs/flip_flops/flip_flops.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/appz/Xilinx/Vivado/2020.2/data/ip'.
