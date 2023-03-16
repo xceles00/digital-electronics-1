@@ -11,3 +11,6 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/xceles00/Documents/digital-electronics-1/labs_2023/05-ffs/flip_flops/flip_flops.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_ff_rst.tcl
