@@ -88,3 +88,8 @@ Time: 135 ns  Iteration: 0  Process: /tb_ff_rst/p_stimulus  File: C:/Users/xcele
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_ff_rst_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1000.027 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1000.027 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 16 12:30:07 2023...

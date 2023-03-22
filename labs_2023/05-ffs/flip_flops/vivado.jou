@@ -14,3 +14,4 @@ open_project C:/Users/xceles00/Documents/digital-electronics-1/labs_2023/05-ffs/
 update_compile_order -fileset sources_1
 launch_simulation
 source tb_ff_rst.tcl
+close_sim
